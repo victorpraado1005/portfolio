@@ -1,4 +1,16 @@
 .container{
   display: grid;
   grid-template-columns: 550px auto;
+
+  .content-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    .container-infos{
+      width: 70%;
+      margin-top: 16px;
+    }
+  }
 }
