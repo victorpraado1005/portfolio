@@ -1,0 +1,67 @@
+.vertical-header{
+  height: 100vh;
+  background-image: url("/me.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+
+    .welcome-text{
+      h2{
+        font-weight: 500;
+        font-size: 22px;
+        font-style: normal;
+      }
+    }
+
+    .btn-contact{
+      display: flex;
+
+      button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 36px;
+        border-radius: 6px;
+        border: none;
+        background: #208B97;
+        color: var(--text-primary);
+      }
+
+      img{
+        margin-right: 6px;
+      }
+
+      button:nth-child(1){
+        margin-right: 20px;
+      }
+    }
+
+    h1{
+      font-weight: bold;
+      font-size: 36px;
+    }
+
+    h2{
+      margin-top: 20px;
+      font-weight: 200;
+      font-size: 18px;
+      font-style: italic;
+    }
+  }
+}
+
+a{
+  text-decoration: none;
+}
