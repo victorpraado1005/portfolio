@@ -1,0 +1,32 @@
+.container-experiencia {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+  .box {
+    max-width: 550px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #208B97;
+
+    .info-box-experiencia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0px 30px;
+
+      h3{
+        font-size: 20px;
+      }
+
+      span{
+        font-size: 13px;
+        margin-bottom: 24px;
+        text-align: center;
+        font-weight: 200;
+      }
+    }
+  }
+}
