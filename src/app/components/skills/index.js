@@ -12,16 +12,7 @@ export function Skills() {
         <div className="box-skills">
           <h4>Front-End</h4>
           <div className="text-box">
-            <span>
-              <Image
-                src="./react.svg"
-                alt="Icon React"
-                width={18}
-                height={18}
-              />
-              React
-            </span>
-            <span>
+          <span>
               <Image
                 src="./html.svg"
                 alt="Icon HTML"
@@ -43,19 +34,28 @@ export function Skills() {
               <Image
                 src="./javascript.svg"
                 alt="Icon JS"
-                width={20}
+                width={18}
                 height={18}
               />
               JavaScript
             </span>
             <span>
               <Image
-                src="./bootstrap.svg"
-                alt="Icon Bootstrap"
-                width={22}
-                height={19}
+                src="./react.svg"
+                alt="Icon React"
+                width={18}
+                height={18}
               />
-              BootStrap
+              React
+            </span>
+            <span>
+              <Image
+                src="./nextjs.svg"
+                alt="Icon Bootstrap"
+                width={18}
+                height={18}
+              />
+              NextJs
             </span>
           </div>
         </div>
