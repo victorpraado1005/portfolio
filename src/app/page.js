@@ -5,6 +5,7 @@ import { QuemSouEu } from './components/quemSouEu';
 import { Skills } from './components/skills';
 import { FormacaoAcademica } from './components/formacaoAcademica';
 import { ExperienciaProfissional } from './components/experienciaProfissional';
+import { Projetos } from './components/projetos';
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
       <div className="secondary-container">
         <FormacaoAcademica />
         <ExperienciaProfissional />
+      </div>
+      <div className="projects-container">
+        <Projetos />
       </div>
     </>
   )
