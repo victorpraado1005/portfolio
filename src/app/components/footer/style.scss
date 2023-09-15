@@ -1,0 +1,40 @@
+footer{
+  background: linear-gradient(180deg, #00101B 0%, #206B97 100%);
+  
+  .entre-em-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+
+    .line{
+      width: 450px;
+      height: 1px;
+      background: white;
+    }
+
+    h3{
+      font-size: 20px;
+    }
+
+    .btn-container-footer{
+      display: flex;
+      gap: 16px;
+
+      button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        gap: 6px;
+        border-radius: 6px;
+        border: none;
+        background: none;
+        color: var(--text-primary);
+        padding: 8px 0px;
+        border: 1.5px solid #4490DB;
+      }
+    }
+  }
+}

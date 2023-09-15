@@ -6,6 +6,7 @@ import { Skills } from './components/skills';
 import { FormacaoAcademica } from './components/formacaoAcademica';
 import { ExperienciaProfissional } from './components/experienciaProfissional';
 import { Projetos } from './components/projetos';
+import { Footer } from './components/footer';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <div className="projects-container">
         <Projetos />
       </div>
+      <Footer />
     </>
   )
 }
