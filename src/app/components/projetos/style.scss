@@ -1,5 +1,6 @@
 .container-projetos {
   padding-top: 24px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +13,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
 
     .box-projetos {
       padding: 32px;
@@ -21,6 +24,7 @@
       border-radius: 10px;
       border: 3px solid #206B97;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      flex-shrink: 0;
 
       .info-box-projetos{
         height: 100%;
@@ -33,6 +37,7 @@
           width: 100%;
           display: flex;
           justify-content: space-between;
+          margin-bottom: 12px;
 
           h4{
             font-size: 18px;
@@ -44,6 +49,39 @@
             font-size: 14px;
             border-radius: 2px;
             font-weight: 300;
+          }
+        }
+
+        .descricao-box-projetos{
+          margin-bottom: 12px;
+          span{
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+
+        .tecnologias-box-projetos{
+          margin-bottom: 16px;
+
+          .img-tecnologias-box-projetos{
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+          }
+        }
+
+        .btn-container-projetos{
+          display: flex;
+          gap: 16px;
+
+          button{
+            padding: 12px 16px;
+            border-radius: 4px;
+            border: 1px solid #4490DB;
+            background: none;
+            color: var(--text-primary);
           }
         }
       }
