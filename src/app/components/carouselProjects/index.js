@@ -18,7 +18,13 @@ const itens = [
     status: "Concluido",
     description: "Site desenvolvido para a empresa Takefoods, 100% responsivo. Utilizando apenas HTML e CSS puro e JS para algumas funcionalidades e Firebase para armazenamento de informações.",
     link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso"
+    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    tecnologias: [
+      "html",
+      "css",
+      "javascript",
+      "firebase"
+    ]
   },
   {
     id: 2,
@@ -26,7 +32,12 @@ const itens = [
     status: "Concluido",
     description: "Site desenvolvido para o projeto de TCC do curso de sistema de informação.",
     link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso"
+    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    tecnologias: [
+      "html",
+      "css",
+      "javascript"
+    ]
   },
   {
     id: 3,
@@ -34,7 +45,14 @@ const itens = [
     status: "Concluido",
     description: "Projeto desenvolvido para aprimorar minhas habilidades com JS. Sistema de controle de alunos e notas para professores, com opção de criar, editar e excluir notas e alunos.",
     link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso"
+    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    tecnologias: [
+      "html",
+      "css",
+      "javascript",
+      "firebase",
+      "jquery"
+    ]
   },
   {
     id: 4,
@@ -42,7 +60,13 @@ const itens = [
     status: "Concluido",
     description: "Projeto criado para consulta de API´s públicas. API de câmbio diário, tempo e consulta de CEP.",
     link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso"
+    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    tecnologias: [
+      "html",
+      "css",
+      "javascript",
+      "jquery"
+    ]
   },
 ];
 
@@ -58,6 +82,7 @@ export default function CarouselProjects() {
           description={item.description}
           link_repositorio={item.link_projeto}
           link_projeto={item.link_github}
+          tecnologias={item.tecnologias}
         />
       ))}
       </Carousel>
