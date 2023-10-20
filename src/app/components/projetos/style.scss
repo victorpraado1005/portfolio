@@ -17,5 +17,27 @@
     border-radius: 12px;
     box-shadow: #206B97 0px 0px 10px;
     padding: 16px;
+
+    @media screen {
+      @media (max-width: 1260px) {
+        max-width: 950px;
+      }
+  
+      @media (max-width: 1000px) {
+        max-width: 650px;
+      }
+
+      @media (max-width: 690px) {
+        max-width: 450px;
+      }
+
+      @media (max-width: 470px) {
+        max-width: 350px;
+      }
+
+      @media (max-width: 370px) {
+        max-width: 250px;
+      }
+    }
   }
 }
