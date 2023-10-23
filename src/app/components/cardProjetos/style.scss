@@ -12,91 +12,218 @@
       width: 350px;
     }
 
-    @media (max-width: 690px) {
+    @media (max-width: 595px) {
       width: 300px;
+      height: 420px;
+    }
+
+    @media (max-width: 470px) {
+      width: 250px;
+      height: 520px;
+      padding: 16px;
+    }
+
+    @media (max-width: 425px) {
+      width: 200px;
+      height: 520px;
+    }
+
+    @media (max-width: 370px) {
+      width: 170px;
+      height: 520px;
+    }
+
+    @media (max-width: 320px) {
+      width: 155px;
+      height: 490px;
+      padding: 12px;
     }
   }
 
-  .info-box-projetos{
+  .info-box-projetos {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
-    .title-box-projetos{
+    .title-box-projetos {
       width: 100%;
       display: flex;
       justify-content: space-between;
       margin-bottom: 12px;
 
-      h4{
+      h4 {
         font-size: 18px;
       }
 
-      span{
+      span {
         background: #7CC152;
         padding: 4px 8px;
         font-size: 14px;
         border-radius: 2px;
         font-weight: 300;
       }
+
+      @media screen {
+        @media (max-width: 595px) {
+          span{
+            height: 30px;
+          }
+        }
+
+        @media (max-width: 470px) {
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
+          margin-bottom: 6px;
+
+          span {
+            padding: 2px 12px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        @media (max-width: 425px) {
+          span {
+            padding: 2px 10px;
+            height: 25px;
+            font-size: 12px;
+          }
+
+          h4{
+            font-size: 14px;
+          }
+        }
+
+        @media (max-width: 320px) {
+          span {
+            padding: 2px 10px;
+            height: 25px;
+            font-size: 10px;
+          }
+
+          h4{
+            font-size: 12px;
+          }
+        }
+      }
     }
 
-    .descricao-box-projetos{
+    .descricao-box-projetos {
       margin-bottom: 12px;
-      span{
+
+      span {
         font-size: 14px;
         font-weight: 300;
       }
 
-      @media screen and (max-width: 1260px) {
-        span{
-          font-size: 12px;
+      @media screen {
+        @media (max-width: 1260px) {
+          span {
+            font-size: 13px;
+          }
+        }
+
+        @media (max-width: 690px) {
+          span {
+            font-size: 13px;
+          }
+        }
+
+        @media (max-width: 425px) {
+          margin-bottom: 6px;
+          span {
+            font-size: 8px;
+          }
         }
       }
     }
 
-    .tecnologias-box-projetos{
+    .tecnologias-box-projetos {
       margin-bottom: 16px;
+      @media screen {
+        @media screen and (max-width: 1260px) {
+          span {
+            font-size: 14px;
+          }
+        }
 
-      @media screen and (max-width: 1260px) {
-        span{
-          font-size: 14px;
+        @media (max-width: 425px) {
+          margin-bottom: 8px;
+          span {
+            font-size: 12px;
+          }
+        }
+
+        @media (max-width: 320px) {
+          span {
+            font-size: 8px;
+          }
         }
       }
+      }
 
-      .img-tecnologias-box-projetos{
+      .img-tecnologias-box-projetos {
         margin-top: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 20px;
 
-        @media screen and (max-width: 1260px) {
-          img{
-            width: 30px;
+        @media screen {
+          @media (max-width: 1260px) {
+            img {
+              width: 30px;
+            }
+          }
+
+          @media (max-width: 425px) {
+            display: grid;
+            grid-template-columns: auto auto;
+
+            img{
+              width: 20px;
+              height: 20px;
+            }
           }
         }
       }
     }
 
-    .btn-container-projetos{
+    .btn-container-projetos {
       display: flex;
       gap: 16px;
 
-      button{
+      @media screen {
+        @media (max-width: 425px) {
+          flex-direction: column;
+        }
+      }
+
+      button {
         padding: 12px 16px;
         border-radius: 4px;
         border: 1px solid #4490DB;
         background: none;
         color: var(--text-primary);
 
-        @media screen and (max-width: 1260px) {
-          padding: 10px 14px;
-          font-size: 12px;
+        @media screen {
+          @media (max-width: 1260px) {
+            padding: 10px 14px;
+            font-size: 12px;
+          }
+
+          @media (max-width: 425px) {
+            padding: 6px 10px;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 10px;
+          }
         }
       }
     }
   }
-}
