@@ -1,5 +1,4 @@
-.vertical-header{
-  height: 100vh;
+.vertical-header {
   background-image: url("/me.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,25 +7,57 @@
   align-items: center;
   justify-content: center;
 
-  .info{
+  .info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 50vh;
 
-    .welcome-text{
-      h2{
+    .welcome-text {
+      h2 {
         font-weight: 500;
         font-size: 22px;
         font-style: normal;
       }
+
+      @media screen {
+        @media (max-width: 775px) {
+          h2 {
+            font-size: 18px;
+          }
+        }
+
+        @media (max-width: 680px) {
+          h2 {
+            font-size: 14px;
+          }
+        }
+
+        @media (max-width: 550px) {
+          h2 {
+            font-size: 18px;
+          }
+        }
+
+        @media (max-width: 340px) {
+          h2 {
+            font-size: 16px;
+          }
+        }
+
+        @media (max-width: 340px) {
+          h2 {
+            font-size: 14px;
+          }
+        }
+      }
     }
 
-    .btn-contact{
+    .btn-contact {
       display: flex;
 
-      button{
+      button {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -39,29 +70,102 @@
         color: var(--text-primary);
       }
 
-      img{
+      img {
         margin-right: 6px;
       }
 
-      button:nth-child(1){
+      button:nth-child(1) {
         margin-right: 20px;
+      }
+
+      @media screen {
+        @media (max-width: 775px) {
+          button {
+            width: 140px;
+          }
+        }
+
+        @media (max-width: 680px) {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        @media (max-width: 550px) {
+          button{
+            width: 180px;
+          }
+        }
       }
     }
 
-    h1{
+    h1 {
       font-weight: bold;
       font-size: 36px;
     }
 
-    h2{
+    h2 {
       margin-top: 20px;
       font-weight: 200;
       font-size: 18px;
       font-style: italic;
     }
+
+    @media screen {
+      @media (max-width: 550px) {
+        justify-content: center;
+        gap: 48px;
+      }
+    }
+
+    @media screen {
+      @media (max-width: 635px) {
+        h1 {
+          font-size: 28px;
+        }
+
+        h2{
+          font-size: 14px;
+          margin-top: 0px;
+        }
+      }
+
+      @media (max-width: 550px) {
+        height: 100vh;
+
+        h1 {
+          font-size: 42px;
+        }
+
+        h2{
+          font-size: 18px;
+          margin-top: 0px;
+        }
+      }
+
+      @media (max-width: 340px) {
+        h1 {
+          font-size: 36px;
+        }
+
+        h2{
+          font-size: 16px;
+        }
+      }
+
+      @media (max-width: 260px) {
+        h1 {
+          font-size: 30px;
+        }
+
+        h2{
+          font-size: 12px;
+        }
+      }
+    }
+
   }
 }
 
-a{
+a {
   text-decoration: none;
 }

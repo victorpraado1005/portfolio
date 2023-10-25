@@ -7,10 +7,8 @@ export function VerticalHeader() {
   return (
     <div className='vertical-header'>
       <div className="info">
-        <div>
           <h1>Victor Prado</h1>
           <h2>desenvolvedor Front-end</h2>
-        </div>
         <div className='btn-contact'>
           <Link href="https://github.com/victorpraado1005" target='_blank'>
             <button>
