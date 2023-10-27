@@ -39,7 +39,7 @@
     @media (max-width: 550px) {
       display: flex;
       flex-direction: column;
-      height: 1450px;
+      height: 1500px;
     }
   }
 
@@ -49,9 +49,16 @@
     justify-content: start;
     align-items: center;
 
+
     .container-infos{
       width: 70%;
     }
+
+    // @media screen {
+    //   @media (max-width: 500px){
+    //     height: 90vh;
+    //   }
+    // }
   }
 }
 
@@ -64,7 +71,7 @@
   margin-top: 36px;
 
   @media screen {
-    @media (max-width: 550px) {
+    @media (max-width: 870px) {
       display: flex;
       flex-direction: column;
       margin-top: 0px;
