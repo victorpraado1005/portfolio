@@ -80,8 +80,8 @@ export default function CarouselProjects() {
           title={item.title}
           status={item.status}
           description={item.description}
-          link_repositorio={item.link_projeto}
-          link_projeto={item.link_github}
+          link_repositorio={item.link_github}
+          link_projeto={item.link_projeto}
           tecnologias={item.tecnologias}
         />
       ))}
