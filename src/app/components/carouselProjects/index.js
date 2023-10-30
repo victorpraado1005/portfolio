@@ -17,8 +17,8 @@ const itens = [
     title: "Site Takefoods",
     status: "Concluido",
     description: "Site desenvolvido para a empresa Takefoods, 100% responsivo. Utilizando apenas HTML e CSS puro e JS para algumas funcionalidades e Firebase para armazenamento de informações.",
-    link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    link_github : "https://github.com/victorpraado1005/site_TakeFoods",
+      link_projeto : "https://takefoods.vercel.app/",
     tecnologias: [
       "html",
       "css",
@@ -31,8 +31,8 @@ const itens = [
     title: "Site - PetVerso",
     status: "Concluido",
     description: "Site desenvolvido para o projeto de TCC do curso de sistema de informação.",
-    link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    link_github: "https://github.com/victorpraado1005/site-PetVerso",
+    link_projeto: "https://site-petverso.vercel.app/",
     tecnologias: [
       "html",
       "css",
@@ -44,8 +44,8 @@ const itens = [
     title: "SchoolJS",
     status: "Concluido",
     description: "Projeto desenvolvido para aprimorar minhas habilidades com JS. Sistema de controle de alunos e notas para professores, com opção de criar, editar e excluir notas e alunos.",
-    link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    link_github: "https://github.com/victorpraado1005/SchoolJS",
+    link_projeto: "https://victorpraado1005.github.io/SchoolJS/",
     tecnologias: [
       "html",
       "css",
@@ -59,8 +59,8 @@ const itens = [
     title: "API Center",
     status: "Concluido",
     description: "Projeto criado para consulta de API´s públicas. API de câmbio diário, tempo e consulta de CEP.",
-    link_github: "https://github.com/victorpraado1005/PetVerso",
-    link_projeto: "https://github.com/victorpraado1005/PetVerso",
+    link_github: "https://github.com/victorpraado1005/ApiCenter",
+    link_projeto: "https://victorpraado1005.github.io/ApiCenter/",
     tecnologias: [
       "html",
       "css",
@@ -75,7 +75,7 @@ export default function CarouselProjects() {
     <>
     <Carousel breakPoints={breakPoints}>
       {itens.map((item) => (
-        <CardProjetos 
+        <CardProjetos
           key={item.id}
           title={item.title}
           status={item.status}
