@@ -49,21 +49,15 @@
           }
         }
 
-        @media (max-width: 950px) {
-          span{
-            font-size: 9px;
-          }
-        }
-
-        @media (max-width: 350px) {
+        @media (max-width: 870px) {
           padding: 0px 10px;
 
           h3{
-            font-size: 12px;
+            font-size: 13px;
           }
 
           span{
-            font-size: 9px;
+            font-size: 11px;
           }
         }
       }
@@ -85,6 +79,7 @@
 
       @media (max-width: 350px) {
         max-width: 250px;
+        max-height: 290px;
       }
     }
   }
