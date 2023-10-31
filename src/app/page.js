@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import './styles/home.scss';
 
 import { VerticalHeader } from './components/verticalHeader/verticalHeader'
@@ -28,6 +30,7 @@ export default function Home() {
         <Projetos />
       </div>
       <Footer />
+      <Analytics />
     </>
   )
 }
