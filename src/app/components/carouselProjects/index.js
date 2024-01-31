@@ -54,20 +54,6 @@ const itens = [
     ]
   },
   {
-    id: 4,
-    title: "Site Takefoods",
-    status: "Concluido",
-    description: "Site desenvolvido para a empresa Takefoods, 100% responsivo. Utilizando apenas HTML e CSS puro e JS para algumas funcionalidades e Firebase para armazenamento de informações.",
-    link_github : "https://github.com/victorpraado1005/site_TakeFoods",
-      link_projeto : "https://takefoods.vercel.app/",
-    tecnologias: [
-      "html",
-      "css",
-      "javascript",
-      "firebase"
-    ]
-  },
-  {
     id: 5,
     title: "SchoolJS",
     status: "Concluido",
